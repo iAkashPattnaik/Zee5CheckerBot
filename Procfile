@@ -1,1 +1,1 @@
-bot: /bin/dart run
+bot: ./dart-sdk/bin/dart run
