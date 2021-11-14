@@ -1,0 +1,31 @@
+{
+    "name": "Zee5CheckerBot",
+    "description": "A Telegram Bot To Check Bulk Zee5 Combos Made In Pure Dart Native.",
+    "logo": "https://raw.githubusercontent.com/BLUE-DEVIL1134/Zee5CheckerBot/main/bin/logo.png",
+    "keywords": ["dart", "telegram"],
+    "repository": "https://github.com/BLUE-DEVIL1134/Zee5CheckerBot",
+    "website": "https://github.com/BLUE-DEVIL1134/Zee5CheckerBot",
+    "success_url": "",
+    "env": {
+        "userId": {
+            "description": "Your UserId",
+            "required": true,
+            "value": ""
+        },
+        "botToken": {
+            "description": "The Token Of The Bot.",
+            "required": true,
+            "value": ""
+        },
+        "DART_SDK_LINK": {
+            "description": "The Dart SDK Link For Linux, For Environment Setup",
+            "required": true,
+            "value": "https://storage.googleapis.com/dart-archive/channels/stable/release/2.14.4/sdk/dartsdk-linux-x64-release.zip"
+        }
+    },
+    "buildpacks": [
+        {
+            "url": "https://github.com/igrigorik/heroku-buildpack-dart.git"
+        }
+    ]
+}
