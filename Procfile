@@ -1,1 +1,1 @@
-bot: dart run
+bot: /bin/dart run
